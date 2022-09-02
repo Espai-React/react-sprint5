@@ -7,7 +7,7 @@ const rebreAcudit = async () => {
     });
     const json = await resposta.json();
     console.log("Acudit: ", json.joke);
-    document.querySelector("#text-acudit").innerHTML = json.joke;
+    document.querySelector("#text-acudit").innerHTML = `" ${json.joke} "`;
   } catch (err) {
     console.log(err.message);
   }

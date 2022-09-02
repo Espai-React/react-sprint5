@@ -6,42 +6,69 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Helvetica,
-    Arial,
-    sans-serif;
-  ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contenidor {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
   align-items: center;
   width: 100vw;
   height: 100vh;
+  background: linear-gradient(180deg, #70e2ff80, 20%, rgb(185, 146, 107, 0.95)),
+    url(../assets/img/pexels-kampus-production-5935240.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.icona-temps {
+  height: 8rem;
+  line-height: 8rem;
+  align-self: start;
+  margin-left: 4rem;
+  font-size: 1.5rem;
 }
 
 main {
-  width: 60vw;
-  height: 50vh;
-  border: .5rem solid #7fd2e7;
-  border-radius: 1rem;
-  padding: 2.5rem;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+}
+
+.contenidor-main {
+  width: 60vw;
+  height: 50vh;
+  background-color: #f0f0f0cc;
+  box-shadow: .5rem .5rem 3rem #000;
+  border-radius: 1rem;
+  padding: 5rem 8rem 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 button {
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
+  padding: 2rem 3.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #06b8b8;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
 }
