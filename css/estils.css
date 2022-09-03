@@ -43,7 +43,7 @@ main {
 
 .contenidor-main {
   width: 60vw;
-  height: 50vh;
+  height: 70vh;
   background-color: #f0f0f0cc;
   box-shadow: .5rem .5rem 3rem #000;
   border-radius: 1rem;
@@ -54,15 +54,33 @@ main {
   align-items: center;
 }
 
-h1 {
+.titol {
   font-size: 2.5rem;
 }
 
-p {
+#text-acudit {
   font-size: 1.5rem;
 }
 
-button {
+.contenidor-botons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contenidor-botons-puntuacio {
+  display: flex;
+  justify-content: space-around;
+  height: 3rem;
+}
+
+.boto-puntuacio {
+  border: none;
+  background-color: transparent;
+  font-size: 2.8rem;
+}
+
+.boto-acudit {
   padding: 2rem 3.5rem;
   font-size: 1.3rem;
   font-weight: bold;
