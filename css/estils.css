@@ -25,7 +25,7 @@ html {
   font-weight: bolder;
 }
 
-.icona-temps {
+.meteo {
   height: 8rem;
   line-height: 8rem;
   align-self: start;
@@ -78,6 +78,12 @@ main {
   border: none;
   background-color: transparent;
   font-size: 2.8rem;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.boto-puntuacio:active {
+  transform: scale(1.6);
 }
 
 .boto-acudit {
@@ -89,4 +95,13 @@ main {
   border: none;
   border-radius: 1rem;
   cursor: pointer;
+}
+
+.boto-acudit:hover {
+  background-color: #029494;
+  outline: .3rem solid #000;
+}
+
+.boto-acudit:active {
+  background-color: #06b8b8;
 }
