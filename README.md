@@ -1,5 +1,7 @@
-# React-Sprint5
+#  React Sprint 5
 
-Exercicis Sprint 5. Itinerari React online IT Academy 
+## Exercicis Sprint 5. Itinerari React online IT Academy. 
 
-Alumne: Jordi Llop
+- Programació en Js ES6
+- Peticions a APIs
+- Maquetaci
