@@ -4,4 +4,4 @@
 
 - Programació en Js ES6
 - Peticions a APIs
-- Maquetaci
+- Maquetació en CSS pur
