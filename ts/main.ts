@@ -11,12 +11,13 @@ const mostrarBotons = () =>
       }),
     300,
   );
+  
 const amagarBotons = () =>
   setTimeout(
     () =>
       document.querySelectorAll("[puntuacio]").forEach((boto) => {
         const elementBoto = boto as HTMLElement;
-        elementBoto.style.display = "block";
+        elementBoto.style.display = "none";
       }),
     400,
   );

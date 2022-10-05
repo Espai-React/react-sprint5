@@ -17,7 +17,7 @@ const mostrarBotons = () => setTimeout(() => document.querySelectorAll("[puntuac
 }), 300);
 const amagarBotons = () => setTimeout(() => document.querySelectorAll("[puntuacio]").forEach((boto) => {
     const elementBoto = boto;
-    elementBoto.style.display = "block";
+    elementBoto.style.display = "none";
 }), 400);
 const rebreAcudit = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
