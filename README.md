@@ -5,3 +5,5 @@
 - Programació en Js ES6
 - Peticions a APIs
 - Maquetació en CSS pur
+
+Alumne: Jordi Llop
