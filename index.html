@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="./css/estils.css" />
+  <script src="https://kit.fontawesome.com/a51db0f426.js" crossorigin="anonymous"></script>
+  <title>Sprint 5 IT ACADEMY</title>
+</head>
+
+<body>
+  <div class="contenidor">
+    <div class="meteo">
+      <img class="img-meteo" alt="meteo-icon" />
+      <div class="text-meteo"><span id="text-meteo"></span>&#176;C</div>
+    </div>
+    <main>
+      <div class="forma-gran"></div>
+      <div class="forma-petita-baix"></div>
+      <div class="forma-petita-dalt"></div>
+      <div class="contenidor-main">
+        <h1 class="titol">Preparat per riure? </h1>
+        <p id="text-acudit"></p>
+        <div class="contenidor-botons">
+          <div class="contenidor-botons-puntuacio">
+            <button puntuacio onclick="puntuacio(1)" class="boto-puntuacio" hidden><i
+                class="fa-regular fa-face-frown"></i></button>
+            <button puntuacio onclick="puntuacio(2)" class="boto-puntuacio" hidden><i
+                class="fa-regular fa-face-meh"></i></button>
+            <button puntuacio onclick="puntuacio(3)" class="boto-puntuacio" hidden><i
+                class="fa-regular fa-face-laugh-squint"></i></button>
+          </div>
+          <div class="contenidor-boto-acudit">
+            <button class="boto-acudit" onclick="triaApi()">Primer acudit</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

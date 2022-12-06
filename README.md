@@ -6,4 +6,6 @@
 - Peticions a APIs
 - Maquetació en CSS pur
 
+Deployment: https://llopfilms.github.io/React-Sprint5/
+
 Alumne: Jordi Llop

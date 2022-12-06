@@ -1,0 +1,166 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenidor {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-weight: bold;
+  color: #fff;
+}
+
+.meteo {
+  align-self: start;
+  font-size: 2rem;
+  color: #000;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-meteo {
+  padding-right: 1rem;
+  height: 6rem;
+}
+
+.text-meteo {
+  line-height: 4rem;
+  border-left: .2rem solid #000;
+  padding-left: 1rem;
+}
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forma-gran,
+.forma-petita-dalt,
+.forma-petita-baix {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.forma-gran {
+  width: 80rem;
+  height: 100vh;
+  top: 45%;
+  left: 50%;
+  background-image: url("../assets/svg/blob-1.svg");
+  background-size: 113%;
+}
+
+.forma-petita-dalt,
+.forma-petita-baix {
+  width: 20rem;
+  height: 20rem;
+}
+
+.forma-petita-dalt {
+  top: 15%;
+  left: 85%;
+  background-image: url("../assets/svg/blob-2.svg");
+}
+
+.forma-petita-baix {
+  top: 85%;
+  left: 15%;
+  background-image: url("../assets/svg/blob-3.svg");
+}
+
+.contenidor-main {
+  padding: 0 4.5rem;
+  width: 60rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  z-index: 1;
+}
+
+.titol {
+  font-size: 2.5rem;
+}
+
+#text-acudit {
+  font-size: 1.5rem;
+}
+
+.contenidor-botons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contenidor-botons-puntuacio {
+  display: flex;
+  justify-content: space-around;
+  height: 3rem;
+}
+
+.boto-puntuacio {
+  position: relative;
+  border: none;
+  background-color: #ecc85b;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 4rem;
+  font-size: 3.5rem;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.boto-puntuacio:active {
+  transform: scale(1.5);
+}
+
+i {
+  position: absolute;
+  top: -12%;
+  left: -15%;
+}
+
+.contenidor-boto-acudit {
+  margin-top: 3rem;
+  position: relative;
+  width: 20rem;
+  height: 5rem;
+  background-color: #ffd61f;
+  border-radius: 3rem;
+}
+
+.boto-acudit {  
+  width: 20rem;
+  height: 5rem;
+  padding: 1.5rem 4rem;
+  background-color: transparent;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: .3rem solid #000;
+  border-radius: 3rem;
+  cursor: pointer;
+  position: absolute;
+  top: -9%;
+  left: -2%;
+}
